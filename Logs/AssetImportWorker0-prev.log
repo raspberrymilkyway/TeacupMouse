@@ -1,0 +1,250 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.8f1 (b30333d56e81) revision 11731763'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Kylee/Videos/TeacupMouse
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63786
+Successfully changed project path to: C:/Users/Kylee/Videos/TeacupMouse
+C:/Users/Kylee/Videos/TeacupMouse
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 604.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.8f1 (b30333d56e81)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Kylee/Videos/TeacupMouse/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX250 (ID=0x1d13)
+    Vendor:   NVIDIA
+    VRAM:     1983 MB
+    Driver:   31.0.15.1694
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56348
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.032963 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 248.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.221 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3223ms)
+		BeginReloadAssembly (611ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (1938ms)
+			LoadAssemblies (597ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (538ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (249ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (659ms)
+				ProcessInitializeOnLoadMethodAttributes (193ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.072781 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kylee\Videos\TeacupMouse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Kylee\Videos\TeacupMouse\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.476 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4479ms)
+		BeginReloadAssembly (634ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (25ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (3306ms)
+			LoadAssemblies (622ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1031ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (225ms)
+			SetupLoadedEditorAssemblies (1432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (348ms)
+				ProcessInitializeOnLoadAttributes (912ms)
+				ProcessInitializeOnLoadMethodAttributes (108ms)
+				AfterProcessingInitializeOnLoad (39ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (36ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.16 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (110.9 KB). Loaded Objects now: 3834.
+Memory consumption went from 116.1 MB to 116.0 MB.
+Total: 9.335300 ms (FindLiveObjects: 0.564700 ms CreateObjectMapping: 0.394400 ms MarkObjects: 8.129400 ms  DeleteObjects: 0.244900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 54295.497641 seconds.
+  path: Assets/Materials/Table.mat
+  artifactKey: Guid(3db1679aa0be6be4e854e68610e26f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Table.mat using Guid(3db1679aa0be6be4e854e68610e26f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4082e43fc9332666387e6fece3e7d25') in 0.763761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.407402 seconds.
+  path: Assets/Materials/Table.mat
+  artifactKey: Guid(3db1679aa0be6be4e854e68610e26f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Table.mat using Guid(3db1679aa0be6be4e854e68610e26f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b53d050e89f5724211a9133883b1a9') in 0.048598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 247.874195 seconds.
+  path: Assets/Materials/Plate.mat
+  artifactKey: Guid(cadff0bc7f239b644a0ac1eef9469049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plate.mat using Guid(cadff0bc7f239b644a0ac1eef9469049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba87b4ea64589f43921dd83285d9e0bf') in 0.038916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.966211 seconds.
+  path: Assets/Materials/PlateCenter.mat
+  artifactKey: Guid(174bd8febe0ff1244a0c1fe7f8c5c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/PlateCenter.mat using Guid(174bd8febe0ff1244a0c1fe7f8c5c3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40ab7f8064824cd4460b1d11e171eb27') in 0.040673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 91.917448 seconds.
+  path: Assets/Materials/Plate.mat
+  artifactKey: Guid(cadff0bc7f239b644a0ac1eef9469049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plate.mat using Guid(cadff0bc7f239b644a0ac1eef9469049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd242c49781c5b558c8a0321748a9e6ce') in 0.073224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.403555 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.012986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.425957 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f803b7399529ce61b91a4d176bd58b') in 0.012587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.529324 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f869a7a096946abdce580fdd8594b51') in 0.018744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 296.584666 seconds.
+  path: Assets/Materials/Teacup.prefab
+  artifactKey: Guid(5389e94f6383e934bbf78653b7269b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Teacup.prefab using Guid(5389e94f6383e934bbf78653b7269b05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633685ac1ea7052faf6bab70c2551a24') in 0.109578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.586681 seconds.
+  path: Assets/Materials/Teacup.mat
+  artifactKey: Guid(914d20694d718034cb9cc8083ac00ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Teacup.mat using Guid(914d20694d718034cb9cc8083ac00ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb7ac3430299c50d5a51c313edc769d') in 0.036776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.593286 seconds.
+  path: Assets/Materials/Plate 1.mat
+  artifactKey: Guid(b6bb85074dd03f94b94fc53ae05f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Plate 1.mat using Guid(b6bb85074dd03f94b94fc53ae05f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cec0dd82b5a868824f8bddff02afbd') in 0.105251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.664550 seconds.
+  path: Assets/Materials/Teacup.mat
+  artifactKey: Guid(b6bb85074dd03f94b94fc53ae05f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Teacup.mat using Guid(b6bb85074dd03f94b94fc53ae05f1c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ee2a1eedd77fabd47a20544ad11068') in 0.045463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.138381 seconds.
+  path: Assets/Prefabs/Teacup.prefab
+  artifactKey: Guid(fd78e6ee7ff93964698936d00c943717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Teacup.prefab using Guid(fd78e6ee7ff93964698936d00c943717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a970328417360d82a71a5cacb16eed2') in 0.043154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.779377 seconds.
+  path: Assets/Prefabs/Teacup.prefab
+  artifactKey: Guid(fd78e6ee7ff93964698936d00c943717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Teacup.prefab using Guid(fd78e6ee7ff93964698936d00c943717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e1086f461b624072ad5a07618505bd') in 0.061523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1681.475219 seconds.
+  path: Assets/Prefabs/TEA.prefab
+  artifactKey: Guid(51247630534028544ae50c6c75ccb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TEA.prefab using Guid(51247630534028544ae50c6c75ccb732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a698488d2a1d0196d6d73d4c401da4') in 0.089504 seconds 
