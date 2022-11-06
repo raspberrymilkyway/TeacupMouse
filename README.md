@@ -1,6 +1,6 @@
 # TeacupMouse
 
-More of a proof of concept than an actual game.
+More of a proof of concept than an actual game. Built in 12 hours for TigerHacks, because we're bad with time and busy.
 
 TO RUN THIS: download "Build" folder; play "TeacupMouse.exe".
 
