@@ -2,6 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+*   Pull the boundaries of the table
+*   Check to see if the current object is on the table
+*   If not, maybe it falls an then deletes?
+*/
+
 public class BoundsCheck : MonoBehaviour
 {
     // Start is called before the first frame update

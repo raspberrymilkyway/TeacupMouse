@@ -2,6 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/*
+*   To be clear, this is player movement.
+*/
+
 public class Movement : MonoBehaviour
 {
     public enum eMode{
