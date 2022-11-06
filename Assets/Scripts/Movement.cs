@@ -12,6 +12,9 @@ public class Movement : MonoBehaviour
         idle, spin
     }
 
+    [SerializeField] private float _speed = 20;
+    [SerializeField] private Rigidbody _rigid;
+
     [Header("Set in Inspector")]
     public float speed = 5;
     public float spinDuration = 0.25f;
@@ -29,6 +32,9 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        var vel = new Vector3(-Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal")) * _speed;
+        vel.y = _rigid.velocity.y;
+        _rigid.velocity = vel;
+
     }
 }
