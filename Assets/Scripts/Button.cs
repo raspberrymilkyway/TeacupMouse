@@ -10,7 +10,6 @@ public class Button : MonoBehaviour
     }
 
     public void quit(){
-        Debug.Log("quitting");
         Application.Quit();
     }
 }
