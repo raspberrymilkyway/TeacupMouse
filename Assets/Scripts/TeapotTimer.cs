@@ -56,6 +56,7 @@ public class TeapotTimer : MonoBehaviour
 
         timer.text = min + ":" + seconds;
 
-        angle -= 2;
+        angle -= 1;
+        gameObject.transform.rotation = Quaternion.Euler(angle, 0, 0);
     }
 }

@@ -5,6 +5,8 @@ using UnityEngine;
 /*
 *   If this is gonna work like pool, these need movement
 *   and... collision and angle calculation.
+*   not used lol
+*   think it's on stuff though, so... it stays
 */
 
 public class Teacup : MonoBehaviour

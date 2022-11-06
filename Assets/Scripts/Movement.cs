@@ -4,6 +4,7 @@ using UnityEngine;
 
 /*
 *   To be clear, this is player movement.
+*   (We... didn't get to adding spin.)
 */
 
 public class Movement : MonoBehaviour
@@ -23,18 +24,11 @@ public class Movement : MonoBehaviour
     [Header("Set Dynamically")]
     public eMode mode = eMode.idle;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
         var vel = new Vector3(-Input.GetAxis("Vertical"), 0, Input.GetAxis("Horizontal")) * _speed;
         vel.y = _rigid.velocity.y;
         _rigid.velocity = vel;
-
     }
 }
